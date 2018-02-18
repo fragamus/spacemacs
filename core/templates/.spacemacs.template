@@ -41,6 +41,7 @@ values."
      ;; better-defaults
      emacs-lisp
      git
+     w3m
      ;; markdown
      ;; org
      ;; (shell :variables
