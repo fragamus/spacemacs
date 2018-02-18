@@ -311,10 +311,13 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
 
-  (setq browse-url-generic-program
-        (executable-find "w3m")
-        browse-url-browser-function 'browse-url-generic)
 
+  (setq browse-url-browser-function 'w3m-browse-url)
+  (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+  ;; optional keyboard short-cut
+  (global-set-key "\C-xm" 'browse-url-at-point)
+
+  (setq w3m-use-cookies t)
 
 )
 
