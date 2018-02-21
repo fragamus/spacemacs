@@ -42,6 +42,7 @@ values."
      emacs-lisp
      git
      w3m
+     haskell
      ;; markdown
      ;; org
      ;; (shell :variables
