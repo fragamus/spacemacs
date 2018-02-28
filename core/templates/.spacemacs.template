@@ -43,6 +43,7 @@ values."
      git
      w3m
      haskell
+     swift
      ;; markdown
      ;; org
      ;; (shell :variables
